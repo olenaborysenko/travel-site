@@ -943,3 +943,25 @@ a {
 		font-size: .94rem;
 		margin: .25rem 0 1rem;
 	}
+
+.footer {
+	background-color: #2F5572;
+	color: #FFF;
+	padding: .5rem 0;
+	text-align: center;
+}
+
+.footer__text {
+		display: block;
+		margin-bottom: 1rem;
+		font-weight: 300;
+	}
+
+@media (min-width: 800px) {
+
+.footer__text {
+			display: inline;
+			margin-bottom: 0;
+			margin-right: 1.4rem
+	}	
+	}
