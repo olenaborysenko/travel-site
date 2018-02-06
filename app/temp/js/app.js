@@ -103,6 +103,7 @@ var MobileMenu = function () {
 	function MobileMenu() {
 		_classCallCheck(this, MobileMenu);
 
+		this.siteHeader = (0, _jquery2.default)(".header");
 		this.menuIcon = (0, _jquery2.default)(".header__menu-icon");
 		this.menuContent = (0, _jquery2.default)(".header__menu-content");
 		this.events();
@@ -117,6 +118,7 @@ var MobileMenu = function () {
 		key: "toggleTheMenu",
 		value: function toggleTheMenu() {
 			this.menuContent.toggleClass("header__menu-content--is-visible");
+			this.siteHeader.toggleClass("header--is-expanded");
 		}
 	}]);
 
