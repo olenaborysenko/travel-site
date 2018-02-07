@@ -561,14 +561,14 @@ a {
 
 @media (min-width: 1010px) {
 
-.row--equal-height-at-large {
+.flexbox .row--equal-height-at-large {
 			display: -webkit-box;
 			display: -ms-flexbox;
 			display: flex
 	}	
 	}
 
-.row--equal-height-at-large > div {
+.flexbox .row--equal-height-at-large > div {
 			float: none;
 			display: -webkit-box;
 			display: -ms-flexbox;
