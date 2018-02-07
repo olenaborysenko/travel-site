@@ -22,7 +22,7 @@ gulp.task("deleteDocsFolder", function() {
 
 gulp.task("copyGeneralFiles", ["deleteDocsFolder"], function() {
 	var pathsToCopy = [
-		"./app/*/*", 
+		"./app/**/*", 
 		"!./app/index.html",
 		"!./app/assets/img/**",
 		"!./app/assets/css/**",
